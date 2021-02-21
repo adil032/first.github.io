@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
+}
+header{
+    background-color: darkcyan;
+    height: 60px
+      
+
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+ul li{
+
+    display: inline-block;
+    padding: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    transition:0.6 ease
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+
+
+}
+.logo{
+    float: left;
+    font-size: xx-large;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin: 8px 15px;
+}
+div.qn{
+    text-align: center;
+    margin-top: 50vh;
+    color: white;
+    text-transform:uppercase;
+    padding: 15px 15px;
+
+    
+
+}
+.qn h1{
+    font-family: 'Akaya Kanadaka', cursive;
+    
+
+}
+.btn{
+    padding: 0 100px;
+    margin: 10px 10px;
+}
+button{
+    padding: 10px 10px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: x-large;
+    background-color: aquamarine;
+    color:black;
+    border-radius: 10px;
+    border: none;
+        
+}
+button:hover{
+    border: 1px solid black;
+
+}
+#about{
+
+    background-color: aquamarine;
+
+}
+#about h1{
+    padding: 200px 0px 0 0;
+
+
+
+    
+
+}
+#about p{
+    padding: 20px 0;
+    text-align: center;
+}
+#about img{
+    width: 50%;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 20px; 
+    transition: 0.5s ease;
+}
+#about img:hover{
+    width: 40%;
+    height: auto;
+    
+    
+}
+@media (max-width:550px){
+    ul{
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        
+        
+    }
+    ul li a{
+        border: none;
+        
+    }
+    ul li a:hover{background-color: black;
+        border: none;
+        color: white;
+
+
+    }
+  
+    header{
+        height: 266px;
+    }
+
+}
